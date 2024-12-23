@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Make the Quill editor text white */
+.ql-editor {
+    color: white !important;
+  }
+  
+  /* Make the cursor visible */
+  .ql-editor.ql-blank::before {
+    color: white !important;
+  }
+
+
+.Vue-Toastification__toast--success.custom-toast-class{
+  background-color: var(--p-primary-400);
+  color: var(--p-primary-contrast-color);
+}
+
+.h-full-content {
+  height: calc(100vh - 9rem);
+}
+
+
+  
